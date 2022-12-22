@@ -20,16 +20,7 @@ function Home() {
       <main className="flex-grow">
         {/*  Page sections */}
         <HeroHome />
-        <FeaturesHome />
         <FeaturesBlocks />
-        <Testimonials />
-        <Newsletter />
-        <InlineWidget
-          styles={{
-            height: "1000px",
-          }}
-          url="https://calendly.com/sunapi386/consulting"
-        />
       </main>
 
       {/*<Banner />*/}

@@ -45,7 +45,7 @@ function HeroHome() {
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
             <h1
-              className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
+              className="text-5xl md:text-3xl font-extrabold leading-tighter tracking-tighter mb-4"
               data-aos="zoom-y-out"
             >
               Unlock Your{" "}
@@ -66,6 +66,7 @@ function HeroHome() {
                 your business to the next level. From end-to-end project
                 management to team leadership, you can count on us to help.
               </p>
+
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
                 data-aos="zoom-y-out"
@@ -74,9 +75,9 @@ function HeroHome() {
                 <div>
                   <a
                     className="btn text-white bg-blue-600 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
-                    href="#0"
+                    href="/contact"
                   >
-                    Book your free consultation!
+                    SCHEDULE A CONSULTATION
                   </a>
                 </div>
               </div>
