@@ -8,6 +8,7 @@ import Testimonials from "../partials/Testimonials";
 import Newsletter from "../partials/Newsletter";
 import Footer from "../partials/Footer";
 import Banner from "../partials/Banner";
+import { InlineWidget } from "react-calendly";
 
 function Home() {
   return (
@@ -23,6 +24,12 @@ function Home() {
         <FeaturesBlocks />
         <Testimonials />
         <Newsletter />
+        <InlineWidget
+          styles={{
+            height: "1000px",
+          }}
+          url="https://calendly.com/sunapi386/consulting"
+        />
       </main>
 
       {/*<Banner />*/}
